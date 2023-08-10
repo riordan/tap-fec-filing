@@ -53,4 +53,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 # CLI declaration
-tap-fec-filing = 'tap_fec_filing.tap:Tapfec-filing.cli'
+tap-fec-filing = 'tap_fec_filing.tap:Tap_fec_filing.cli'

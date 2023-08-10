@@ -7,7 +7,7 @@ from typing import Iterable
 from singer_sdk.streams import Stream
 
 
-class fec-filingStream(Stream):
+class fec_filingStream(Stream):
     """Stream class for fec-filing streams."""
 
     def get_records(

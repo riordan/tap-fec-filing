@@ -9,7 +9,7 @@ from singer_sdk import typing as th  # JSON schema typing helpers
 from tap_fec_filing import streams
 
 
-class Tapfec-filing(Tap):
+class Tapfec_filing(Tap):
     """fec-filing tap class."""
 
     name = "tap-fec-filing"
@@ -42,7 +42,7 @@ class Tapfec-filing(Tap):
         ),
     ).to_dict()
 
-    def discover_streams(self) -> list[streams.fec-filingStream]:
+    def discover_streams(self) -> list[streams.fec_filingStream]:
         """Return a list of discovered streams.
 
         Returns:
@@ -55,4 +55,4 @@ class Tapfec-filing(Tap):
 
 
 if __name__ == "__main__":
-    Tapfec-filing.cli()
+    Tapfec_filing.cli()

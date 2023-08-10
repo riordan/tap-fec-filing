@@ -6,7 +6,7 @@ from pathlib import Path
 
 from singer_sdk import typing as th  # JSON Schema typing helpers
 
-from tap_fec_filing.client import fec-filingStream
+from tap_fec_filing.client import fec_filingStream
 
 # TODO: Delete this is if not using json files for schema definition
 SCHEMAS_DIR = Path(__file__).parent / Path("./schemas")
@@ -14,7 +14,7 @@ SCHEMAS_DIR = Path(__file__).parent / Path("./schemas")
 #       - Copy-paste as many times as needed to create multiple stream types.
 
 
-class UsersStream(fec-filingStream):
+class UsersStream(fec_filingStream):
     """Define custom stream."""
 
     name = "users"

@@ -1,28 +1,15 @@
 # tap-fec-filing
 
-`tap-fec-filing` is a Singer tap for fec-filing.
-
-Built with the [Meltano Tap SDK](https://sdk.meltano.com) for Singer Taps.
-
-<!--
-
-Developer TODO: Update the below as needed to correctly describe the install procedure. For instance, if you do not have a PyPi repo, or if you want users to directly install from your git repo, you can modify this step as appropriate.
+`tap-fec-filing` is a Singer tap for United States Federal Collection Comission filings. Its purpose is to make it easy to import FEC filings into your data warehouse.
 
 ## Installation
-
-Install from PyPi:
-
-```bash
-pipx install tap-fec-filing
 ```
 
 Install from GitHub:
 
 ```bash
-pipx install git+https://github.com/ORG_NAME/tap-fec-filing.git@main
+pipx install git+https://github.com/riordan/tap-fec-filing.git@main
 ```
-
--->
 
 ## Configuration
 
