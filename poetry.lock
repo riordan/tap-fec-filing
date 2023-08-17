@@ -1575,13 +1575,13 @@ files = [
 
 [[package]]
 name = "singer-sdk"
-version = "0.29.0"
+version = "0.31.1"
 description = "A framework for building Singer taps"
 optional = false
 python-versions = ">=3.7.1,<3.12"
 files = [
-    {file = "singer_sdk-0.29.0-py3-none-any.whl", hash = "sha256:b24dabd0cfd820e37efaedfc0bc0a131b75ec486131e2c87aa20794dde858171"},
-    {file = "singer_sdk-0.29.0.tar.gz", hash = "sha256:66ec185831d8049fac4c2c686b56dd91da9a17becf6194afdada0b0d6331ce37"},
+    {file = "singer_sdk-0.31.1-py3-none-any.whl", hash = "sha256:c5e20a1b042ab49f8446c2db150f7f75e3e6a99a0d579f1a7ff9eed9abeda084"},
+    {file = "singer_sdk-0.31.1.tar.gz", hash = "sha256:cdd76f05259c1244ae91b4ac6fe44f7e3a182a3c480a29b60dfee9c51d498ea0"},
 ]
 
 [package.dependencies]
@@ -1595,6 +1595,7 @@ joblib = ">=1.0.1,<2.0.0"
 jsonpath-ng = ">=1.5.3,<2.0.0"
 jsonschema = ">=4.16.0,<5.0.0"
 memoization = ">=0.3.2,<0.5.0"
+packaging = ">=23.1"
 pendulum = ">=2.1.0,<3.0.0"
 PyJWT = ">=2.4,<3.0"
 pytest = {version = ">=7.2.1,<8.0.0", optional = true, markers = "extra == \"testing\""}
@@ -1604,7 +1605,7 @@ pytz = ">=2022.2.1,<2024.0.0"
 PyYAML = ">=6.0,<7.0"
 requests = ">=2.25.1,<3.0.0"
 simplejson = ">=3.17.6,<4.0.0"
-sqlalchemy = ">=1.4,<2.0"
+sqlalchemy = ">=1.4,<3.0"
 typing-extensions = ">=4.2.0,<5.0.0"
 urllib3 = ">=1.26,<2"
 
@@ -1922,4 +1923,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "<3.12,>=3.8"
-content-hash = "19e3a6018715b5d36265b97dc6a2cdf022252d336d175bb7e165f2bceaf2adec"
+content-hash = "3cb18e4ad3f4cd2eadd91deb2b3c2418942464198c27c9e727695dda085b027a"
